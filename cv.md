@@ -28,3 +28,22 @@ Studying the basics of:
 
 What is more, I have started to develop my first website using Visual Studio Code and Adobe Photoshop.
 ***
+
+## Code examples
+
+**Task**: you are going to be given a word. Your job is to return the middle character of the word. If the word's length is odd, return the middle character. If the word's length is even, return the middle 2 characters.
+
+**Solution**:
+```sh
+    function getMiddle(s) {
+     if (s.length % 2 == 0) {
+     return s[s.length / 2 - 1] + s[s.length / 2]
+     }
+      return s[(s.length - 1) / 2]
+     }
+```
+***
+
+## Education
+In 2014 I got my diploma in civil construction (highways and airports)
+Since summer 2019, I have been studying in HTML academy and RS School.
