@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url("./assets/font-family/pt-sans/PTS55F.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Segoe WP";
+  src: url("./assets/font-family/segoe-wp/SegoeWPN.ttf") format("truetype");
+}
+
+body {
+  font-size: 20px;
+  font-family: "PT Sans", "Segoe WP", sans-serif;
+  background-image: url("./assets/images/background.jpg");
+}
+
+/*    HEADER    */
+
+.site-header {
+  max-width: 1024px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.site-header__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.photo img {
+  border-radius: 20px;
+}
+
